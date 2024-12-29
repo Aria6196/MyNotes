@@ -3,16 +3,14 @@ package proyek.pam.mynotes
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import androidx.activity.enableEdgeToEdge
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import androidx.appcompat.widget.Toolbar
 import androidx.lifecycle.ViewModelProvider
 import proyek.pam.mynotes.database.NoteDatabase
 import proyek.pam.mynotes.repository.NoteRepository
 import proyek.pam.mynotes.viewmodel.NoteViewModel
 import proyek.pam.mynotes.viewmodel.NoteViewModelFactory
-import androidx.appcompat.widget.Toolbar
 
 class MainActivity : AppCompatActivity() {
 
