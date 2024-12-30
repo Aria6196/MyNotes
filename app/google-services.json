@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "284292187530",
+    "project_id": "noter-2f307",
+    "storage_bucket": "noter-2f307.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284292187530:android:13cee3824f2400a4fc7473",
+        "android_client_info": {
+          "package_name": "proyek.pam.mynotes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTJ10g5lt0byqs2RcsD3KrU_G44d_cHC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
