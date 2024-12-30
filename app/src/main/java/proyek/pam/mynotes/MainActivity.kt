@@ -20,13 +20,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
-
-        // Menambahkan Toolbar ke ActionBar
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
 
-        // Setup ViewModel
         setupViewModel()
     }
 
@@ -36,7 +32,6 @@ class MainActivity : AppCompatActivity() {
         noteViewModel = ViewModelProvider(this, viewModelProviderFactory)[NoteViewModel::class.java]
     }
 
-    // Inflasi menu dan menampilkan SearchView
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.home_menu, menu)
         return true
@@ -46,7 +41,6 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.searchMenu -> {
-                // Logika pencarian bisa ditambahkan di sini
                 true
             }
             else -> super.onOptionsItemSelected(item)

@@ -52,7 +52,6 @@ class HomeFragment : Fragment(R.layout.fragment_home), SearchView.OnQueryTextLis
             it.findNavController().navigate(R.id.action_homeFragment_to_addNoteFragment)
         }
 
-        // Menangani tombol Back di fragment
         requireActivity().onBackPressedDispatcher.addCallback(viewLifecycleOwner) {
             requireActivity().finishAffinity()
         }
