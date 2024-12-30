@@ -1,8 +1,6 @@
 <resources>
-    <string name="app_name">MyNotes</string>
+    <string name="app_name">Noter</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="weather_api_base_url">https://api.openweathermap.org/data/2.5/</string>
-    <string name="weather_api_key">7005c8a0668c31a2c1ccc791745c00d0</string>
 
 </resources>

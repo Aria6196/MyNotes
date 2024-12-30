@@ -18,22 +18,11 @@
             android:padding="16dp">
 
             <TextView
-                android:id="@+id/noteWeather"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:text="Weather Info"
-                android:textSize="14sp"
-                android:fontFamily="@font/poppins"
-                android:textColor="@color/red" />
-
-
-            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:id="@+id/noteTitle"
                 android:layout_weight="200"
-                android:textColor="@color/red"
+                android:textColor="@color/pink"
                 android:fontFamily="@font/poppins"
                 android:text="Note Title"
                 android:textStyle="bold"
